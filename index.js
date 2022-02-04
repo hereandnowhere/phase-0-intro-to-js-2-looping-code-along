@@ -1,6 +1,6 @@
 const names = [`Guadalupe`, `Ollie`, `Aki`];
 
-const party = "suprise"
+const party = "suprise";
 
 function writeCards(guests, event) {
   for (let i = 0; i < guests.length; i++) {
@@ -18,5 +18,5 @@ function countDown(num){
         console.log(countDown);
         countDown--;
     }
-    return num
+    return num;
 }
